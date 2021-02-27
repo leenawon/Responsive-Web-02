@@ -1,0 +1,83 @@
+:root {
+  /* Color */
+  --dark-gray-color: #2f3640;
+  --purple-color: #d6a2e8;
+  --pink-color: #ffcccc;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font */
+
+@font-face {
+  font-family: "HangeulNuri-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "HangeulNuri-Bold";
+}
+
+/* Header */
+
+.header {
+  height: 100vh;
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header Logo */
+
+.header .header-logo {
+  margin: 0 80px;
+}
+
+.header-logo .logo {
+  width: 90px;
+  margin-top: 30px;
+}
+
+/* Header Content */
+
+.header-logo .header-content {
+  max-width: 400px;
+  margin-top: 100px;
+  line-height: 1.5;
+  color: var(--dark-gray-color);
+}
+
+.header-content .square {
+  width: 130px;
+  height: 12px;
+  display: inline-block;
+  background-color: var(--pink-color);
+  margin: 10px 0;
+}
+
+/* Header Button */
+
+.header-content .header-button {
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 10px 30px;
+  margin: 25px 0;
+  border: 2px solid var(--purple-color);
+  border-radius: 20px;
+  font-weight: bold;
+  color: var(--dark-gray-color);
+}
+
+.header-button:hover {
+  background-color: var(--purple-color);
+}
