@@ -7,6 +7,7 @@
 }
 
 /* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -33,9 +34,19 @@ a {
   font-style: normal;
 }
 
+/* Square Box Design */
+
+.square {
+  width: 60px;
+  height: 12px;
+  display: inline-block;
+  background-color: var(--pink-color);
+  margin: 20px 0;
+}
+
 /* Header */
 
-.header {
+#header {
   height: 100vh;
   background-image: url(../images/background.png);
   background-position: center;
@@ -45,7 +56,7 @@ a {
 
 /* Header Logo */
 
-.header .header-logo {
+#header .header-logo {
   margin: 0 80px;
 }
 
@@ -61,14 +72,6 @@ a {
   margin-top: 100px;
   line-height: 1.5;
   color: var(--dark-gray-color);
-}
-
-.header-content .square {
-  width: 130px;
-  height: 12px;
-  display: inline-block;
-  background-color: var(--pink-color);
-  margin: 20px 0;
 }
 
 /* Header Button */
@@ -94,7 +97,8 @@ a {
 /* Navigation */
 
 .navigation {
-  height: 0vh;
+  opacity: 0;
+  height: 0;
 }
 
 /* Click Menu Button */
@@ -104,6 +108,7 @@ a {
 .navigation.nav-list {
   width: 250px;
   height: 100vh;
+  opacity: 1;
   position: fixed;
   right: 0;
   top: 0;
@@ -125,4 +130,36 @@ a {
   right: 40px;
   top: 30px;
   cursor: pointer;
+}
+
+/* About Section */
+
+#about-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+/* About Image */
+
+#about-section .about-image {
+  flex-basis: 50%;
+}
+
+.about-image img {
+  width: 100%;
+}
+
+/* About Content */
+
+#about-section .about-content {
+  flex-basis: 50%;
+  text-align: right;
+  color: var(--dark-gray-color);
+}
+
+.about-content .about-content-text {
+  max-width: 600px;
+  margin-right: 80px;
 }
