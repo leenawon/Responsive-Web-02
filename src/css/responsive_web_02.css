@@ -40,6 +40,7 @@ button {
 
 button:hover {
   background-color: var(--purple-color);
+  color: var(--white-color);
 }
 
 /* Font */
@@ -221,4 +222,40 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Course Section */
+
+#course-section {
+  padding: 50px 0;
+}
+
+#course-section .course-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.course-container .course-text {
+  flex-basis: 50%;
+  margin-left: 50px;
+  max-width: 350px;
+  color: var(--dark-gray-color);
+}
+
+.course-text p {
+  color: var(--light-gray-color);
+}
+
+.course-text .course-button {
+  margin-top: 50px;
+}
+
+.course-container .course-image {
+  flex-basis: 50%;
+}
+
+.course-image img {
+  width: 100%;
 }
