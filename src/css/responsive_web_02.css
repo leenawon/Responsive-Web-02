@@ -237,6 +237,8 @@ button:hover {
   flex-wrap: wrap;
 }
 
+/* Course Section Text */
+
 .course-container .course-text {
   flex-basis: 50%;
   margin-left: 50px;
@@ -251,6 +253,8 @@ button:hover {
 .course-text .course-button {
   margin-top: 50px;
 }
+
+/* Course Section Image */
 
 .course-container .course-image {
   flex-basis: 50%;
