@@ -142,38 +142,48 @@ button:hover {
 }
 
 /* About Section */
+/* Offer Section */
+/* 동일 CSS 적용 */
 
-#about-section {
+#about-section,
+#offer-section {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   padding: 50px 0;
 }
 
-/* About Image */
+/* About Section Image */
+/* Offer Section Image */
 
-#about-section .about-image {
+#about-section .about-image,
+#offer-section .offer-image {
   flex-basis: 50%;
 }
 
-.about-image img {
+.about-image img,
+.offer-image img {
   width: 100%;
 }
 
-/* About Content */
+/* About Section Content */
+/* Offer Section Content */
 
-#about-section .about-content {
+#about-section .about-content,
+#offer-section .offer-content {
   flex-basis: 50%;
   text-align: right;
   color: var(--dark-gray-color);
 }
 
-.about-content .about-content-text {
+.about-content .about-content-text,
+.offer-content .offer-content-text {
   max-width: 550px;
   margin-right: 80px;
 }
 
-.about-content-text p {
+.about-content-text p,
+.offer-content-text p {
   color: var(--light-gray-color);
 }
 
@@ -250,7 +260,12 @@ button:hover {
   color: var(--light-gray-color);
 }
 
-.course-text .course-button {
+/* Course Section Button */
+/* Offer Section Button */
+/* 동일 CSS 적용 */
+
+.course-text .course-button,
+.offer-content-text .offer-button {
   margin-top: 50px;
 }
 
