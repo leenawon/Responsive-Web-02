@@ -131,6 +131,10 @@ button:hover {
   text-transform: uppercase;
 }
 
+.navigation.nav-list li:hover {
+  color: var(--white-color);
+}
+
 /* Navigation Menu Image */
 
 .nav-menu-button {
@@ -276,5 +280,69 @@ button:hover {
 }
 
 .course-image img {
+  width: 100%;
+}
+
+/* Contact Section */
+#contact-section {
+  padding: 50px 0;
+}
+
+#contact-section .contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Contact Section Content */
+
+.contact-container .contact-content {
+  flex-basis: 50%;
+  margin-left: 50px;
+  max-width: 350px;
+  color: var(--dark-gray-color);
+}
+
+/* Contact Section Form */
+
+.contact-content .contact-form {
+  margin: 0 0 15px;
+}
+
+.contact-content .contact-form input {
+  width: 100%;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 2px solid var(--pink-color);
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.contact-form input:first-child {
+  margin-top: 0;
+}
+
+/* Contact Section Button */
+
+.contact-content .contact-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-button-container button {
+  flex-basis: 50%;
+  margin-right: 10px;
+}
+
+/* Contact Section Image */
+
+.contact-container .contact-image {
+  flex-basis: 50%;
+}
+
+.contact-image img {
   width: 100%;
 }
