@@ -432,5 +432,219 @@ button:hover {
 
 .footer-right-content .footer-logo-image img {
   width: 100px;
-  margin-right: 30px;
+  margin: 30px 30px 0;
+}
+
+/*/* Media Query */
+
+/* 801px ~ 1024px */
+@media screen and (max-width: 1024px) {
+  /* Header */
+  #header {
+    height: 1000px;
+  }
+  .header-logo .header-content {
+    max-width: 350px;
+  }
+
+  /* About Section */
+  #about-section {
+    padding-top: 0;
+  }
+
+  /* Footer */
+  #footer .footer-left-content ul {
+    flex-basis: 35%;
+    margin-bottom: 30px;
+  }
+
+  #footer .footer-right-content {
+    flex-wrap: wrap-reverse;
+  }
+
+  #footer .footer-right-content .footer-logo-image {
+    margin-bottom: 30px;
+  }
+}
+
+/* 769px ~ 800px */
+@media screen and (max-width: 800px) {
+  /* Header */
+  .header-content p {
+    width: 280px;
+  }
+
+  /* Course Section */
+  /* Contact Section */
+  .course-container .course-image,
+  .contact-container .contact-image {
+    margin-top: 50px;
+  }
+}
+
+/* 661px ~ 768px */
+@media screen and (max-width: 768px) {
+  /* Header */
+  #header {
+    background-size: 1000px;
+    height: 900px;
+  }
+  .header-content p {
+    width: 250px;
+  }
+
+  /* Feature Section */
+  .row-feature .col-feature {
+    margin-right: 18px;
+  }
+
+  /* Course Section */
+  .course-container .course-text {
+    flex-basis: 30%;
+  }
+
+  /* Contact Section */
+  .contact-container .contact-content {
+    flex-basis: 40%;
+  }
+
+  .contact-container .contact-image {
+    flex-basis: 40%;
+  }
+}
+
+/* 481px ~ 660px */
+@media screen and (max-width: 660px) {
+  /* Header */
+  #header {
+    background-size: 650px;
+  }
+
+  /* About Section */
+
+  .about-content .about-content-text {
+    margin-right: 50px;
+  }
+
+  /* Feature Section */
+  #features-section {
+    padding: 50px 0;
+  }
+
+  /* Offer Section */
+
+  .offer-content .offer-content-text {
+    margin-right: 50px;
+  }
+
+  /* Contact Section */
+  .contact-button-container button {
+    padding: 10px;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 50px 20px;
+  }
+
+  .footer-container .footer-right-content {
+    margin-top: 0;
+  }
+}
+
+/* 0 ~ 480px */
+@media screen and (max-width: 480px) {
+  /* Header */
+  #header {
+    background-image: none;
+    height: 800px;
+  }
+
+  /* About Section */
+  #about-section {
+    display: block;
+  }
+
+  .about-image img {
+    width: 80%;
+  }
+
+  .about-content .about-content-text {
+    margin: 30px;
+  }
+
+  /* Feature Section */
+  .row-feature .col-feature:nth-child(3) {
+    margin-top: 20px;
+  }
+
+  .feature-button {
+    margin-top: 30px;
+  }
+
+  /* Course Section */
+  #course-section .course-container {
+    display: block;
+  }
+
+  .course-container .course-image {
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  /* Offer Section */
+  #offer-section {
+    display: block;
+  }
+
+  .offer-image img {
+    width: 80%;
+  }
+
+  .offer-content .offer-content-text {
+    margin: 30px;
+  }
+
+  /* Contact Section */
+  #contact-section .contact-container {
+    display: block;
+  }
+
+  .contact-container .contact-image {
+    width: 80%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* Footer */
+  #footer .footer-container {
+    display: block;
+  }
+
+  /* Footer Left Content */
+  .footer-container .footer-left-content {
+    margin-top: 20px;
+  }
+
+  .footer-left-content .footer-link {
+    margin-right: 0;
+  }
+
+  #footer .footer-left-content ul {
+    margin-bottom: 20px;
+  }
+
+  /* Footer Right Content */
+  .footer-container .footer-right-content {
+    margin-top: 20px;
+  }
+
+  .footer-right-content .footer-text {
+    flex-basis: 40%;
+    margin-left: 20px;
+  }
+
+  .footer-right-content .footer-logo-image img {
+    margin: 0 50px 0 0;
+  }
 }
