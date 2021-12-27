@@ -337,6 +337,14 @@ button:hover {
   margin: 15px 0;
 }
 
+.contact-form input[type="password"] {
+  font-family: "굴림";
+}
+
+.contact-form input[type="password"]::placeholder {
+  font-family: "HangeulNuri-Bold";
+}
+
 .contact-form input:first-child {
   margin-top: 0;
 }
